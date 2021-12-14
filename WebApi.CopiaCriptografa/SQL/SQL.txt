@@ -1,0 +1,10 @@
+﻿CREATE TABLE Lancamentos (
+	Id int IDENTITY(1,1) NOT NULL,
+	Texto varchar(200) NOT NULL
+	)
+
+CREATE TABLE TudoLancados (
+	Id int IDENTITY(1,1) NOT NULL,
+	IdTexto int NOT NULL,
+	TextoCrypt varchar(600) NOT NULL
+	)

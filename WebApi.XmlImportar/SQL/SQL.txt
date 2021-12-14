@@ -1,0 +1,13 @@
+﻿CREATE TABLE Users (
+	Id int NOT NULL,
+	Name varchar(50) NOT NULL,
+	Occupation varchar(50) NOT NULL,
+	CONSTRAINT [PK_Users] PRIMARY KEY ([Id])
+)
+
+
+CREATE TABLE [dbo].[Cidades](
+	[Capital] [varchar](50) NOT NULL,
+	[Population] [decimal](18, 2) NOT NULL,
+	CONSTRAINT [PK_Cidades] PRIMARY KEY ([Capital])
+)

@@ -1,0 +1,26 @@
+﻿
+BEGIN TRANSACTION;
+GO
+
+CREATE TABLE [EmailRemetente] (
+    [Id] int NOT NULL IDENTITY,
+    [RemetenteEmail] varchar(50) NOT NULL,
+    [NameEmpresa] varchar(30) NOT NULL,
+    [Password] varchar(30) NOT NULL,
+    [Host] varchar(30) NOT NULL,
+    [Port] int NOT NULL,
+    [Assunto] varchar(30) NOT NULL,
+    [Corpo] varchar(150) NOT NULL,
+    CONSTRAINT [PK_EmailRemetente] PRIMARY KEY ([Id])
+);
+GO
+
+CREATE TABLE [Pessoa] (
+    [Id] int NOT NULL IDENTITY,
+    [Email] varchar(50) NOT NULL,
+    CONSTRAINT [PK_Pessoa] PRIMARY KEY ([Id])
+);
+GO
+
+COMMIT;
+GO

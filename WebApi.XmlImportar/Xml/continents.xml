@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<continents>
+  <europe>
+    <slovakia>
+      <capital>Bratisl</capital>
+      <population>421000</population>
+    </slovakia>
+    <hungary>
+      <capital>Budapesti</capital>
+      <population>1759000</population>
+    </hungary>
+    <poland>
+      <capital>Warsawe</capital>
+      <population>1735000</population>
+    </poland>
+  </europe>
+  <asia>
+    <china>
+      <capital>Beijinge</capital>
+      <population>21700000</population>
+    </china>
+    <vietnam>
+      <capital>Hanoio</capital>
+      <population>7500000</population>
+    </vietnam>
+  </asia>
+</continents>
