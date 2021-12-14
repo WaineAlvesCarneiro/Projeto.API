@@ -3,6 +3,6 @@
 # WebApi.ImportarNfe
 * Faz a importação para o banco de dados de uma nota fiscal eletronica NF-e.
 # WebApi.XmlImportar
-* Importa para o banco de dados dados de XML.
+* Importa para o banco o conteudo do XML.
 # WebApi.EnvioEmail
 * Nesse projeto Web API foi implementado para envio de e-mail para o destinatario.
